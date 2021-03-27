@@ -10,3 +10,10 @@ python index.py
 ```
 
 sau đó auto bình thường, có thể dùng pm2 để quản lý file python chạy ngầm
+
+```
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate auto2
+cd /home/nghiahsgs/Desktop/micro-server-gg-anh
+pm2 start "python index.py" --name "server-gg-anh"
+```
